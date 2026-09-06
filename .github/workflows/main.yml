@@ -1,8 +1,6 @@
 name: first_workflow
 
-on: 
-  push:
-  workflow-dispatch:
+on: [push,workflow-dispatch]
 
 jobs:
   example-job:
